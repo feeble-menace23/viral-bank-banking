@@ -1,0 +1,294 @@
+{
+    "design_system_profile": {
+      "brand_identity": {
+        "name": "DealCircle",
+        "industry": "M&A Technology / B2B SaaS",
+        "brand_personality": ["professional", "trustworthy", "innovative", "efficient", "data-driven"],
+        "target_audience": "M&A advisors, buyers, investors, private equity professionals"
+      },
+      "color_palette": {
+        "primary": {
+          "brand_blue": "#1E40AF",
+          "description": "Professional corporate blue, used for main CTAs and branding"
+        },
+        "secondary": {
+          "accent_blue": "#3B82F6",
+          "description": "Lighter blue for hover states and secondary elements"
+        },
+        "neutrals": {
+          "dark_gray": "#1F2937",
+          "medium_gray": "#6B7280",
+          "light_gray": "#F3F4F6",
+          "white": "#FFFFFF"
+        },
+        "semantic": {
+          "success": "#10B981",
+          "warning": "#F59E0B",
+          "error": "#EF4444"
+        }
+      },
+      "typography": {
+        "font_families": {
+          "primary": {
+            "name": "Inter",
+            "fallback": "system-ui, -apple-system, sans-serif",
+            "usage": "Headers, body text, UI elements"
+          },
+          "secondary": {
+            "name": "Roboto",
+            "fallback": "Arial, sans-serif",
+            "usage": "Alternative for data-heavy sections"
+          }
+        },
+        "font_sizes": {
+          "hero_heading": "48px",
+          "h1": "36px",
+          "h2": "28px",
+          "h3": "24px",
+          "h4": "20px",
+          "body_large": "18px",
+          "body": "16px",
+          "body_small": "14px",
+          "caption": "12px"
+        },
+        "font_weights": {
+          "light": 300,
+          "regular": 400,
+          "medium": 500,
+          "semibold": 600,
+          "bold": 700
+        },
+        "line_heights": {
+          "tight": 1.2,
+          "normal": 1.5,
+          "relaxed": 1.75
+        }
+      },
+      "layout_system": {
+        "grid": {
+          "type": "12-column",
+          "max_width": "1200px",
+          "gutter": "24px",
+          "margin": "20px"
+        },
+        "breakpoints": {
+          "mobile": "320px",
+          "tablet": "768px",
+          "desktop": "1024px",
+          "large_desktop": "1440px"
+        },
+        "spacing_scale": {
+          "xs": "4px",
+          "sm": "8px",
+          "md": "16px",
+          "lg": "24px",
+          "xl": "32px",
+          "2xl": "48px",
+          "3xl": "64px",
+          "4xl": "96px"
+        }
+      },
+      "components": {
+        "buttons": {
+          "primary": {
+            "background": "primary.brand_blue",
+            "text_color": "white",
+            "padding": "12px 24px",
+            "border_radius": "8px",
+            "font_weight": "semibold",
+            "font_size": "16px",
+            "hover_state": "darker shade of primary",
+            "shadow": "0 2px 4px rgba(0,0,0,0.1)"
+          },
+          "secondary": {
+            "background": "transparent",
+            "text_color": "primary.brand_blue",
+            "border": "2px solid primary.brand_blue",
+            "padding": "12px 24px",
+            "border_radius": "8px",
+            "font_weight": "semibold",
+            "font_size": "16px",
+            "hover_state": "filled with primary color"
+          },
+          "cta": {
+            "background": "linear-gradient(135deg, #1E40AF, #3B82F6)",
+            "text_color": "white",
+            "padding": "16px 32px",
+            "border_radius": "12px",
+            "font_weight": "bold",
+            "font_size": "18px",
+            "shadow": "0 4px 12px rgba(30, 64, 175, 0.3)"
+          }
+        },
+        "cards": {
+          "feature_card": {
+            "background": "white",
+            "border_radius": "12px",
+            "padding": "32px",
+            "shadow": "0 4px 12px rgba(0, 0, 0, 0.05)",
+            "border": "1px solid #E5E7EB",
+            "hover_effect": "subtle lift shadow"
+          },
+          "testimonial_card": {
+            "background": "light_gray",
+            "border_radius": "16px",
+            "padding": "24px",
+            "border_left": "4px solid primary.brand_blue"
+          },
+          "stats_card": {
+            "background": "white",
+            "border_radius": "8px",
+            "padding": "24px",
+            "text_align": "center",
+            "shadow": "0 2px 8px rgba(0, 0, 0, 0.08)"
+          }
+        },
+        "forms": {
+          "input_field": {
+            "background": "white",
+            "border": "1px solid #D1D5DB",
+            "border_radius": "8px",
+            "padding": "12px 16px",
+            "font_size": "16px",
+            "focus_state": "border: 2px solid primary.brand_blue"
+          },
+          "form_container": {
+            "background": "white",
+            "border_radius": "12px",
+            "padding": "32px",
+            "shadow": "0 8px 24px rgba(0, 0, 0, 0.1)"
+          }
+        },
+        "navigation": {
+          "header": {
+            "background": "white",
+            "height": "80px",
+            "shadow": "0 2px 4px rgba(0, 0, 0, 0.05)",
+            "padding": "0 24px",
+            "sticky": true
+          },
+          "nav_links": {
+            "font_weight": "medium",
+            "font_size": "16px",
+            "color": "dark_gray",
+            "hover_color": "primary.brand_blue",
+            "spacing": "32px"
+          },
+          "logo": {
+            "font_weight": "bold",
+            "font_size": "24px",
+            "color": "primary.brand_blue"
+          }
+        }
+      },
+      "layout_patterns": {
+        "hero_section": {
+          "structure": "centered text with CTA buttons",
+          "background": "light gradient or solid color",
+          "text_alignment": "center",
+          "max_width": "800px",
+          "padding": "80px 0"
+        },
+        "feature_grid": {
+          "structure": "3-column grid on desktop, 1-column on mobile",
+          "spacing": "32px gap",
+          "card_style": "white background with shadow"
+        },
+        "trust_indicators": {
+          "structure": "horizontal logo grid",
+          "background": "light_gray",
+          "padding": "48px 0",
+          "logo_opacity": "0.7"
+        },
+        "content_sections": {
+          "structure": "alternating left/right image-text layout",
+          "spacing": "80px vertical padding",
+          "image_ratio": "16:9 or 4:3"
+        },
+        "cta_section": {
+          "structure": "centered with background color",
+          "background": "primary.brand_blue or gradient",
+          "text_color": "white",
+          "padding": "64px 0"
+        }
+      },
+      "content_strategy": {
+        "headline_style": {
+          "pattern": "Benefit-focused, clear value proposition",
+          "length": "5-8 words for main headlines",
+          "tone": "professional, direct, confident"
+        },
+        "subheadline_style": {
+          "pattern": "Explanatory, elaborates on main headline",
+          "length": "15-25 words",
+          "tone": "informative, reassuring"
+        },
+        "body_text_style": {
+          "pattern": "Benefit-driven, feature explanations",
+          "length": "2-3 sentences per paragraph",
+          "tone": "professional, clear, jargon-appropriate for B2B"
+        },
+        "cta_text_style": {
+          "pattern": "Action-oriented, specific",
+          "examples": ["Free initial consultation", "Get started now", "Schedule demo"],
+          "tone": "encouraging, clear benefit"
+        }
+      },
+      "visual_hierarchy": {
+        "information_flow": [
+          "Hero headline and value proposition",
+          "Key benefits or features",
+          "Social proof / trust indicators",
+          "Detailed feature explanations",
+          "Testimonials or case studies",
+          "Final CTA section"
+        ],
+        "emphasis_techniques": [
+          "Bold headers with ample whitespace",
+          "Color contrast for important elements",
+          "Card-based grouping for features",
+          "Progressive disclosure of information",
+          "Strategic use of icons and graphics"
+        ]
+      },
+      "interaction_patterns": {
+        "hover_effects": {
+          "buttons": "subtle scale or color change",
+          "cards": "lift with shadow increase",
+          "links": "color change to primary blue"
+        },
+        "animations": {
+          "page_load": "subtle fade-in for content sections",
+          "scroll_triggers": "elements appear on scroll",
+          "micro_interactions": "button press feedback"
+        },
+        "responsive_behavior": {
+          "navigation": "hamburger menu on mobile",
+          "grid_collapse": "3-col to 1-col on mobile",
+          "text_scaling": "responsive font sizes",
+          "spacing_adjustment": "reduced padding on mobile"
+        }
+      },
+      "accessibility": {
+        "color_contrast": "WCAG AA compliant",
+        "font_sizes": "minimum 16px for body text",
+        "focus_indicators": "visible focus rings",
+        "alt_text": "descriptive for all images",
+        "keyboard_navigation": "full keyboard accessibility"
+      },
+      "performance_considerations": {
+        "image_optimization": "WebP format with fallbacks",
+        "lazy_loading": "for images below fold",
+        "font_loading": "font-display: swap",
+        "critical_css": "inline critical styles",
+        "minification": "CSS and JS minification"
+      },
+      "implementation_guidelines": {
+        "css_methodology": "utility-first (Tailwind) or BEM",
+        "component_structure": "atomic design principles",
+        "responsive_approach": "mobile-first design",
+        "browser_support": "modern browsers (ES6+)",
+        "framework_agnostic": "can be implemented in React, Vue, or vanilla HTML/CSS"
+      }
+    }
+  }

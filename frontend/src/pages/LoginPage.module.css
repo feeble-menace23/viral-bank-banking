@@ -1,0 +1,102 @@
+/* Elegant login background and card */
+.loginBg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(120deg, #232526 0%, #414345 100%);
+  opacity: 0.18;
+  z-index: 0;
+  pointer-events: none;
+}
+.container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 36px 32px 28px 32px;
+  background: rgba(255,255,255,0.98);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(44,62,80,0.13);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  position: relative;
+  z-index: 1;
+}
+.title {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #232526;
+  font-weight: 700;
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+}
+.formGroup {
+  margin-bottom: 20px;
+}
+.label {
+  display: block;
+  margin-bottom: 6px;
+  color: #232526;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #bfc4ce;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #f7f7fa;
+  transition: border 0.2s;
+}
+.input:focus {
+  border: 1.5px solid #232526;
+  outline: none;
+}
+.button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #232526 60%, #414345 100%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.button:hover {
+  background: linear-gradient(90deg, #232526 60%, #232526 100%);
+  box-shadow: 0 4px 16px rgba(44,62,80,0.13);
+}
+.message {
+  margin-top: 18px;
+  text-align: center;
+  color: #d32f2f;
+  font-weight: 500;
+}
+
+.registerContainer {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.registerText {
+  margin-right: 6px;
+}
+
+.registerButton {
+  background: none;
+  border: none;
+  color: #232526;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.registerButton:hover {
+  color: #414345;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking Application</title>
+  <link rel="stylesheet" href="global.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cursor-bg"></div>
+  <div class="blob-interactive" id="blob1"></div>
+  <div class="blob-interactive" id="blob2"></div>
+  <div class="blob-interactive" id="blob3"></div>
+  <div class="blob-interactive" id="blob4"></div>
+  <header class="header">
+    <div class="logo">ViralBank</div>
+    <nav class="nav-links">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#accounts">Accounts</a>
+      <a href="#transactions">Transactions</a>
+      <a href="#transfer">Transfer Money</a>
+      <a href="#creditcards">Credit Cards</a>
+      <a href="#fixeddeposits">Fixed Deposits</a>
+      <a href="#login">Login</a>
+      <a href="#register">Register</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="hero" id="hero">
+      <h1>Banking for Brands That Want to Grow</h1>
+      <p>Modern, secure, and lightning-fast banking for the digital age. <br> No bloat. No hassle. Just results.</p>
+      <button class="button-primary" id="heroGetStarted">Get Started</button>
+      <button class="button-secondary">View Features</button>
+    </section>
+    <!-- Dynamic content will be injected here by main.js -->
+  </main>
+  <div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="modal-close" id="modalClose">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+  <div id="loadingOverlay" class="loading-overlay" style="display:none;">
+    <div class="spinner"></div>
+  </div>
+  <footer class="container" style="text-align:center;">
+    &copy; 2024 ViralBank. All rights reserved.
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

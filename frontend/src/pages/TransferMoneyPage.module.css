@@ -1,0 +1,77 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 32px 28px 24px 28px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.title {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #1a237e;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+.formGroup label {
+  margin-bottom: 6px;
+  color: #3949ab;
+  font-size: 1rem;
+}
+.formGroup input, .formGroup select {
+  padding: 10px 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+.formGroup input:focus, .formGroup select:focus {
+  border: 1.5px solid #3949ab;
+  outline: none;
+}
+.button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #3949ab 60%, #1e88e5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+.button:hover {
+  background: linear-gradient(90deg, #1a237e 60%, #1976d2 100%);
+}
+.confirmation {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 18px 16px;
+  margin-bottom: 18px;
+}
+.confirmation ul {
+  list-style: none;
+  padding: 0;
+}
+.confirmation li {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+.message {
+  margin-top: 18px;
+  text-align: center;
+  color: #388e3c;
+  font-weight: 500;
+}

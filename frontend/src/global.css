@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #e9ecef 0%, #dbe2ef 40%, #f7f7fa 100%);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e3eafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #b3b9d3;
+  border-radius: 8px;
+}
